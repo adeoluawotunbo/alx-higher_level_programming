@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-def uppercase(str)
-for car in str:
-        if 97 <= ord(car) <= 122:
-            car = chr(ord(car) - 32)
-        print("{}".format(car), end="")
+def uppercase(str):
+    for case in str:
+        if 97 <= ord(case) <= 122:
+            case = chr(ord(case) - 32)
+        print("{}".format(case), end="")
     print()
